@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "示例之如何快速搭建 Vue 组件开发环境",
   "scripts": {
-    "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build"
