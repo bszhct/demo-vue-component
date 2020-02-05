@@ -9,7 +9,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "@bszhct/template-vue-component": "^1.0.0",
+    "@bszhct/template-vue-component": "^1.0.1",
     "vue": "2.6.11",
     "vue-router": "3.1.5"
   },
