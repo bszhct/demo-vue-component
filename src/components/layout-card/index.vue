@@ -1,5 +1,5 @@
 <template>
-  <div :class="['layout-card-wrap', className]">
+  <div class="layout-card-wrap">
     <div v-if="title" class="title">{{title}}</div>
     <div v-if="description" class="description">{{description}}</div>
     <div class="card-main"><slot></slot></div>
@@ -10,10 +10,6 @@
 export default {
   name: 'layout-card',
   props: {
-    className: {
-      type: String,
-      default: ''
-    },
     title: {
       type: String,
       default: ''
